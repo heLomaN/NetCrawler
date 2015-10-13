@@ -13,12 +13,11 @@ def query(word):
     #print trans_div
     interpretations = trans_div.findAll('li')
     for elem in interpretations:
-        print elem.string
+        print '\t', elem.string
 
 
 if __name__ == '__main__':
     word = raw_input('Query:\t')
-    print word
     while(word != 'q'):
         query(word)
         word = raw_input('Query:\t')
