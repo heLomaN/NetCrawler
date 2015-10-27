@@ -131,6 +131,8 @@ def render(render_path, topics):
 		<html>
 		<head>
 			<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+			<base target = "_blank">
+			<link rel="stylesheet" type="text/css" href="style.css" >
 		</head>
 		<body>
 		%s

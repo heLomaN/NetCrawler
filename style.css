@@ -1,0 +1,29 @@
+
+body {background-color: #fff0cd}
+table{
+	text-align: left;
+	border: 0; 
+	font-family: 'Microsoft Yahei', 微软雅黑, Verdana, Tahoma, Arial, sans-serif;
+	font-size: 18px;
+	height: auto;
+	line-height: 22px;
+}
+table td {
+	padding-bottom: 6px;
+	padding-left: 6px;
+	padding-right: 60px;
+	padding-top: 6px;
+	border: 1px solid #fff;
+	white-space: nowrap;
+}
+table th {
+	padding-bottom: 6px;
+	padding-left: 6px;
+	padding-right: 60px;
+	padding-top: 6px;
+	text-align: center;
+}
+a:link {color:#1a3959; text-decoration:none;} 
+a:visited {color:#9f273f; text-decoration:underline;} 
+a:hover {font-size:20; color:#2c5787; text-decoration:underline;} 
+a:active {color:#2c5787; text-decoration:underline;}
